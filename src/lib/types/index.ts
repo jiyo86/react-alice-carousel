@@ -184,6 +184,7 @@ export enum Classnames {
 	BUTTON_NEXT = 'alice-carousel__next-btn',
 	BUTTON_NEXT_WRAPPER = 'alice-carousel__next-btn-wrapper',
 	BUTTON_NEXT_ITEM = 'alice-carousel__next-btn-item',
+	BUTTON_CONTROL_WRAPPER = 'alice-carousel-controller-wrp',
 }
 
 export enum Modifiers {

@@ -212,7 +212,7 @@ enum EventType {
 ## Build the project locally
 #### Clone
 ```apacheconfig
-git clone https://github.com/maxmarinich/react-alice-carousel
+git clone https://github.com/jiyo86/react-alice-carousel
 cd react-alice-carousel
 ```
 #### Run

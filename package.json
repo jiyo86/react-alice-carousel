@@ -6,7 +6,7 @@
   "types": "./lib/react-alice-carousel.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maxmarinich/react-alice-carousel.git"
+    "url": "git+https://github.com/jiyo86/react-alice-carousel.git"
   },
   "scripts": {
     "remove:nm": "find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +",
@@ -48,18 +48,18 @@
     "content gallery",
     "content rotator"
   ],
-  "author": "Max Marinich",
+  "author": "Jiyo Mathew",
   "maintainers": [
     {
-      "name": "Max Marinich",
-      "email": "max.marinich@gmail.com"
+      "name": "Jiyo Mathew",
+      "email": "jiyomathew@gmail.com"
     }
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/maxmarinich/react-alice-carousel/issues"
+    "url": "https://github.com/jiyo86/react-alice-carousel/issues"
   },
-  "homepage": "https://github.com/maxmarinich/react-alice-carousel#readme",
+  "homepage": "https://github.com/jiyo86/react-alice-carousel#readme",
   "peerDependencies": {
     "react": ">=15.4"
   },

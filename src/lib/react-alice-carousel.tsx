@@ -676,8 +676,11 @@ export default class AliceCarousel extends React.PureComponent<Props, State> {
 				</div>
 
 				{shouldDisableDots ? null : this._renderDotsNavigation()}
-				{shouldDisableButtons ? null : this._renderPrevButton()}
-				{shouldDisableButtons ? null : this._renderNextButton()}
+				{shouldDisableButtons ? null :
+					<div className={Classnames.BUTTON_CONTROL_WRAPPER}>
+						{this._renderPrevButton()}
+						{ this._renderNextButton()}
+					</div>}
 				{this.props.disableSlideInfo ? null : this._renderSlideInfo()}
 				{this.props.autoPlayControls ? this._renderPlayPauseButton() : null}
 			</div>
