@@ -1,5 +1,5 @@
 {
-  "name": "react-alice-carousel",
+  "name": "@jiyomathew/react-alice-carousel",
   "version": "2.7.1",
   "description": "React image gallery, react slideshow carousel, react content rotator",
   "main": "./lib/react-alice-carousel.js",
@@ -50,10 +50,7 @@
   ],
   "author": "Jiyo Mathew",
   "maintainers": [
-    {
-      "name": "Jiyo Mathew",
-      "email": "jiyomathew@gmail.com"
-    }
+    "Jiyo Mathew <jiyomathew@gmail.com>"
   ],
   "license": "MIT",
   "bugs": {
@@ -127,5 +124,9 @@
       "pre-commit": "npm run precommit",
       "pre-push": "npm run precommit"
     }
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
   }
 }
